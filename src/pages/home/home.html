@@ -1,0 +1,16 @@
+<ion-header>
+  <ion-navbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  Lets Test a connection with XMPP openfire
+
+  <input type="text" [(ngModel)]="username" />
+  <button ion-button class="center" (click)="onLogin();" >GET Xmpp Conenction</button>
+<button ion-button class="center" (click)="onLogin2();" >Disconnect Xmpp Conenction</button>
+<button ion-button class="center" (click)="onRegister();" >Register Xmpp Conenction</button>
+</ion-content>
